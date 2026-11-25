@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pratyaya Jagannath</title>
+<meta name="description" content="Pratyaya Jagannath, PhD: rural livelihoods specialist, trainer and teacher: training, value-chain analysis, business plans and DPRs, evaluation and MEAL, teaching, research and writing. Bhubaneswar, India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Odia:wdth,wght@75..125,400..800&family=Noto+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE  occasion, professional: a practitioner's own site, calm and confident
+   IDEA   the cover of a cluster DPR: a terraced hillside of farm plots, laid out field by field
+   PICTURE full-width illustrated terraced hillside with paddy, orchards and a collection centre
+   COLOUR white ground, deep paddy green #1d4d32 bands, field greens, turmeric #e3a21a accent; night #0e1712
+   TYPE   Anek Odia (condensed display, from Odisha's own lettering) + Noto Sans
+   LAYOUT title and actions across the top, picture full-bleed beneath, figures band, then sections; phone stacks */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#0e1712);--ink:light-dark(#14231a,#e8efe9);--soft:light-dark(#4a5c50,#a9bbae);--deep:light-dark(#1d4d32,#163b27);--on-deep:#f4f8f2;--acc:#e3a21a;--line:light-dark(#d9e3dc,#25382c);--panel:light-dark(#f2f6f1,#14211a);--sky1:light-dark(#cfe6f0,#16283a);--sky2:light-dark(#fdf3dc,#22303a);--far:light-dark(#a8c3b4,#2a4236);--mid:light-dark(#6f9c7c,#24442f);--t1:light-dark(#8fbf5a,#2f5a33);--t2:light-dark(#b9cf62,#3d6633);--t3:light-dark(#d9c25a,#58602c);--t4:light-dark(#5f9a4a,#28502c);--soil:light-dark(#9c6b3f,#5a3e26);--leaf:light-dark(#2f6b3c,#1f4a2a);--roof:#b5452b;--wall:light-dark(#f4ead6,#c9bea6)}
+:root[data-theme=light]{color-scheme:light}
+:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html{scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16.5px/1.6 "Noto Sans",system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:clip}
+a{color:inherit}
+h1,h2,h3{font-family:"Anek Odia","Noto Sans",system-ui,sans-serif;font-stretch:88%;letter-spacing:-.02em;line-height:1.05;margin:0;text-wrap:balance}
+h1{font-size:clamp(40px,6vw,64px);font-weight:750}
+h2{font-size:clamp(30px,3.6vw,44px);font-weight:700}
+h3{font-size:22px;font-weight:700;line-height:1.15}
+p{margin:0 0 .8em}
+.band{padding-block:clamp(32px,4.5vw,72px);padding-inline:max(5vw,16px)}
+.wrap{max-width:1240px;margin:0 auto}
+nav{position:sticky;top:0;z-index:5;background:var(--deep);color:var(--on-deep)}
+nav .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 20px;padding:12px max(5vw,16px)}
+nav .name{font-family:"Anek Odia",sans-serif;font-weight:700;font-size:21px;text-decoration:none;font-stretch:90%}
+nav ul{display:flex;flex-wrap:wrap;gap:4px 18px;list-style:none;margin:0;padding:0}
+nav ul a{text-decoration:none;font-size:15px;opacity:.9;padding:8px 0;display:inline-block}
+nav ul a:hover,nav ul a:focus-visible{opacity:1;text-decoration:underline;text-underline-offset:4px}
+.hero{padding-bottom:0}
+.hero .wrap{display:grid;grid-template-columns:auto minmax(0,1fr);gap:24px 40px;align-items:center}
+.me{width:clamp(150px,17vw,220px);height:auto;aspect-ratio:1;object-fit:cover;border-radius:50%;border:6px solid var(--acc);display:block}
+.acts{margin-top:22px}
+.lede{font-size:19px;color:var(--soft);max-width:38em;margin-top:18px}
+.where{font-size:15px;color:var(--soft);margin:0}
+.acts{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 6px}
+.btn{display:inline-flex;align-items:center;min-height:46px;padding:10px 20px;border-radius:8px;font-weight:600;font-size:16px;text-decoration:none;border:2px solid var(--deep);transition:background .15s}
+.btn.pri{background:var(--deep);color:var(--on-deep)}
+.btn.pri:hover{background:color-mix(in srgb,var(--deep) 85%,#000)}
+.btn.sec{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn.sec:hover{border-color:var(--deep)}
+.btn:focus-visible,button:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.scene{display:block;width:100%;height:clamp(220px,30vw,400px);margin-top:clamp(24px,3vw,40px)}
+.figs{background:var(--deep);color:var(--on-deep)}
+.figs .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(11em,1fr));gap:24px 32px}
+.fig-n{font-family:"Anek Odia",sans-serif;font-weight:750;font-stretch:85%;font-size:clamp(38px,4.4vw,54px);line-height:1;color:var(--acc);white-space:nowrap}
+.fig-t{font-size:15px;line-height:1.45;margin-top:8px;opacity:.92}
+.sec-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:16px 48px;align-items:end;margin-bottom:32px}
+.sec-head p{color:var(--soft);margin:0}
+.svc{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+@media (max-width:960px){.svc{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.svc{grid-template-columns:minmax(0,1fr)}}
+.svc article{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:22px 22px 14px;display:flex;flex-direction:column}
+.svc svg{width:44px;height:44px;margin-bottom:14px}
+.svc h3{margin-bottom:10px}
+.svc p{font-size:15.5px}
+.svc .for{font-size:14px;color:var(--soft);margin-top:auto;padding-top:6px;border-top:1px solid var(--line)}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:15.5px}
+th{text-align:left;font-weight:600;font-size:14px;color:var(--soft);padding:10px 12px 10px 0;border-bottom:2px solid var(--ink)}
+td{padding:14px 12px 14px 0;border-bottom:1px solid var(--line);vertical-align:top}
+td.yr{white-space:nowrap;font-weight:600;font-variant-numeric:tabular-nums}
+td.sc{white-space:nowrap;color:var(--soft)}
+td.cl{font-weight:600}
+.clients{margin-top:28px;font-size:15px;color:var(--soft)}
+.clients b{color:var(--ink);font-weight:600}
+.about{background:var(--panel)}
+.about .wrap{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:32px 56px}
+.about h2{margin-bottom:20px}
+.edu{list-style:none;margin:0;padding:0}
+.edu li{padding:12px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:4.2em minmax(0,1fr);gap:12px}
+.edu li span:first-child{font-weight:600;font-variant-numeric:tabular-nums}
+.edu small{display:block;color:var(--soft);font-size:14px}
+.facts{margin-top:22px;font-size:15.5px}
+.facts p{margin:0 0 8px}
+.contact{background:var(--deep);color:var(--on-deep)}
+.contact .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px 56px;align-items:start}
+.contact p{opacity:.92;font-size:17px}
+.rows{display:grid;gap:10px}
+.row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;padding:14px 18px;border:1px solid color-mix(in srgb,var(--on-deep) 25%,transparent);border-radius:10px}
+.row .k{font-size:14px;opacity:.8;width:100%}
+.row .v{font-size:18px;font-weight:600;overflow-wrap:anywhere}
+.row a{text-underline-offset:4px}
+.copy{min-height:44px;padding:8px 16px;border-radius:8px;border:2px solid var(--acc);background:transparent;color:var(--on-deep);font:600 15px "Noto Sans",sans-serif;cursor:pointer}
+.copy:hover{background:color-mix(in srgb,var(--acc) 22%,transparent)}
+footer{background:var(--deep);color:var(--on-deep);border-top:1px solid color-mix(in srgb,var(--on-deep) 20%,transparent)}
+footer .wrap{padding:18px max(5vw,16px);font-size:14px;opacity:.85;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px}
+.sun{transform-origin:1150px 110px;animation:rise 1.6s ease-out both}
+@keyframes rise{from{transform:translateY(40px);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.sun{animation:none}}
+@media (max-width:860px){.sec-head,.about .wrap,.contact .wrap{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:640px){.hero .wrap{grid-template-columns:minmax(0,1fr)}.me{width:140px}}
+@media (max-width:600px){body{font-size:16px}.lede{font-size:17px}table{font-size:14px}th,td{padding:8px 6px 8px 0}.stack thead{display:none}.stack tr{display:grid;padding-block:10px;border-bottom:1px solid var(--line)}.stack td{border:0;padding:2px 0;white-space:normal}.stack td.yr{color:var(--soft)}nav ul{gap:2px 14px}}
+</style>
+</head>
+<body>
+<nav aria-label="Main">
+  <div class="wrap">
+    <a class="name" href="#top">Pratyaya Jagannath</a>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="band hero" id="top">
+  <div class="wrap">
+    <img class="me" src="photo.jpg" width="240" height="240" alt="Pratyaya Jagannath in a paddy field">
+    <div>
+      <h1>Pratyaya Jagannath, PhD</h1>
+      <p class="lede">Rural livelihoods specialist, trainer and teacher. For over 22 years I have trained field teams, analysed value chains, built business plans, evaluated programmes, taught and written for state livelihood missions, research institutes, NGOs and universities.</p>
+      <div class="acts">
+        <a class="btn pri" href="mailto:pratyayj@gmail.com">Write to me</a>
+        <a class="btn sec" href="https://www.linkedin.com/in/pratyaya-jagannath-4823b915">LinkedIn</a>
+      </div>
+      <p class="where">Bhubaneswar, Odisha. Working across India in English, Hindi and Odia.</p>
+    </div>
+  </div>
+  <svg class="scene" viewBox="0 0 1440 400" preserveAspectRatio="xMidYMax slice" role="img" aria-label="Illustration of terraced farm plots on a hillside with orchards and a small collection centre">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--sky1)"/><stop offset="1" stop-color="var(--sky2)"/></linearGradient>
+      <linearGradient id="hl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+      <pattern id="rows" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(-8)"><path d="M0 7h14" stroke="#000" stroke-opacity=".09" stroke-width="2"/></pattern>
+      <g id="tree"><rect x="-3" y="-4" width="6" height="22" fill="var(--soil)"/><circle cx="0" cy="-16" r="17" fill="var(--leaf)"/><path d="M-12-22a17 17 0 0 1 20-10" stroke="#fff" stroke-opacity=".22" stroke-width="4" fill="none" stroke-linecap="round"/></g>
+      <g id="shrub"><circle cx="0" cy="0" r="9" fill="var(--leaf)"/><circle cx="10" cy="3" r="7" fill="var(--leaf)"/></g>
+    </defs>
+    <rect width="1440" height="400" fill="url(#sky)"/>
+    <circle class="sun" cx="1150" cy="110" r="46" fill="var(--acc)"/>
+    <path d="M0 210 C180 150 320 170 470 140 C620 110 760 160 900 130 C1060 98 1220 150 1440 120 V400 H0Z" fill="var(--far)"/>
+    <path d="M0 250 C200 200 360 230 520 205 C700 178 840 230 1010 200 C1180 172 1300 215 1440 196 V400 H0Z" fill="var(--mid)"/>
+    <g id="terr"></g>
+    <path d="M640 400 C700 360 760 340 800 300 C830 270 860 262 900 252" stroke="var(--wall)" stroke-width="9" fill="none" stroke-linecap="round" opacity=".9"/>
+    <g transform="translate(905 214)">
+      <path d="M0 40 L60 40 L60 0 L0 0Z" fill="var(--wall)"/>
+      <path d="M-8 4 L30 -24 L68 4Z" fill="var(--roof)"/>
+      <path d="M30 -24 L68 4 L60 4 L30 -17Z" fill="#000" opacity=".18"/>
+      <rect x="22" y="16" width="16" height="24" fill="var(--deep)"/>
+      <rect x="-14" y="40" width="88" height="5" fill="#000" opacity=".15"/>
+    </g>
+    <g id="trees"></g>
+  </svg>
+</header>
+
+<section class="band figs" aria-label="At a glance">
+  <div class="wrap">
+    <div><div class="fig-n">22+ years</div><div class="fig-t">in rural livelihoods, value chains, natural resource management and MEAL</div></div>
+    <div><div class="fig-n">100+</div><div class="fig-t">training programmes for more than 2,000 officials, NGO staff and community leaders</div></div>
+    <div><div class="fig-n">33,000</div><div class="fig-t">households and farmers covered in 31 baselines, RCTs, impact and value-chain studies</div></div>
+    <div><div class="fig-n">15+ states</div><div class="fig-t">where I have prepared, appraised or quality-assured cluster DPRs and proposals for State Rural Livelihood Missions</div></div>
+  </div>
+</section>
+
+<section class="band" id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>What I can do for you</h2>
+      <p>For State Rural Livelihood Missions, NIRD&amp;PR, research institutes, universities, NGOs, CSR foundations and consulting firms. Fees on request, by the day or by the deliverable.</p>
+    </div>
+    <div class="svc">
+      <article>
+        <svg viewBox="0 0 44 44" aria-hidden="true"><rect x="4" y="6" width="36" height="22" rx="3" fill="var(--deep)"/><path d="M10 14h16M10 20h10" stroke="#fff" stroke-width="2.5"/><circle cx="12" cy="37" r="4" fill="var(--acc)"/><circle cx="22" cy="37" r="4" fill="var(--acc)"/><circle cx="32" cy="37" r="4" fill="var(--acc)"/></svg>
+        <h3>Training and capacity building</h3>
+        <p>Training of trainers and induction programmes for SRLM staff and community resource persons: needs assessment, modules, session plans, games and role plays, in English and Hindi. Grade-A National Resource Person for DAY-NRLM and trainer at NIRD&amp;PR since 2014.</p>
+        <p class="for">Recent: producer-group and FPO training for Krishi Udyog Sakhis (Uttarakhand), black rice value-chain training (Bargarh, Odisha), enterprise loan ToTs (Uttar Pradesh)</p>
+      </article>
+      <article>
+        <svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="8" cy="22" r="5" fill="var(--deep)"/><circle cx="22" cy="12" r="5" fill="var(--deep)"/><circle cx="22" cy="32" r="5" fill="var(--deep)"/><circle cx="36" cy="22" r="6" fill="var(--acc)"/><path d="M12 20l6-5M12 24l6 5M26 14l6 5M26 30l6-5" stroke="var(--deep)" stroke-width="2.5"/></svg>
+        <h3>Value-chain analysis</h3>
+        <p>Subsector and value-chain studies, 5P and commodity selection, market scoping and investment plans for spices, millets, maize, livestock, NTFP and horticulture, from the farm gate to the buyer.</p>
+        <p class="for">For SELCO Foundation, GIZ, Nudge, Syngenta Foundation and FDRVC</p>
+      </article>
+      <article>
+        <svg viewBox="0 0 44 44" aria-hidden="true"><rect x="6" y="4" width="28" height="36" rx="3" fill="var(--deep)"/><rect x="11" y="24" width="4" height="10" fill="var(--acc)"/><rect x="18" y="18" width="4" height="16" fill="var(--acc)"/><rect x="25" y="12" width="4" height="22" fill="var(--acc)"/><path d="M11 10h14" stroke="#fff" stroke-width="2.5"/></svg>
+        <h3>Business plans and DPRs</h3>
+        <p>Business plans and Detailed Project Reports for FPOs, producer groups, Integrated Farming Clusters and rural enterprises: 60-month cash flows, working capital, break-even, BCR, DSCR and sensitivity, with budgets matched to grant tranches.</p>
+        <p class="for">2025–26: cluster DPRs for the Nagaland, Rajasthan, Himachal Pradesh, Uttarakhand, Gujarat, Mizoram, Kerala, Punjab, Odisha and Sikkim missions</p>
+      </article>
+      <article>
+        <svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="19" cy="19" r="12" fill="none" stroke="var(--deep)" stroke-width="5"/><path d="M28 28l10 10" stroke="var(--deep)" stroke-width="6" stroke-linecap="round"/><circle cx="19" cy="19" r="4" fill="var(--acc)"/></svg>
+        <h3>Evaluation and MEAL</h3>
+        <p>Baseline, midline and endline studies, treatment–control designs, sampling, KoboToolbox survey builds, enumerator training, SPSS and STATA analysis, results frameworks and M&amp;E plans.</p>
+        <p class="for">For IFPRI, CIMMYT–BISA, the World Bank, GIZ and Heifer International</p>
+      </article>
+      <article>
+        <svg viewBox="0 0 44 44" aria-hidden="true"><path d="M4 16 L22 8 L40 16 L22 24Z" fill="var(--deep)"/><path d="M11 20v9c0 3 5 6 11 6s11-3 11-6v-9l-11 5z" fill="var(--deep)" opacity=".75"/><path d="M38 17v12" stroke="var(--acc)" stroke-width="3"/><circle cx="38" cy="31" r="3" fill="var(--acc)"/></svg>
+        <h3>Teaching</h3>
+        <p>Visiting Faculty at XIM University, Bhubaneswar: undergraduate academic writing, and postgraduate teaching on sustainable livelihoods, climate adaptation and natural resource governance. I also supervise student research and take guest lectures and short courses.</p>
+        <p class="for">Courses, case teaching and workshops for universities and institutes</p>
+      </article>
+      <article>
+        <svg viewBox="0 0 44 44" aria-hidden="true"><path d="M8 36 L30 8 L36 14 L14 40 L6 42Z" fill="var(--deep)"/><path d="M30 8 L36 14" stroke="var(--acc)" stroke-width="5"/><path d="M6 42 L8 36 L12 40Z" fill="var(--acc)"/></svg>
+        <h3>Research, writing and proposals</h3>
+        <p>Desk research, reports, case studies, policy briefs and journal manuscripts; editing and quality checks of others' drafts; translation from Hindi, Odia, Bengali and Assamese; technical and financial proposals for government, donor and CSR funders.</p>
+        <p class="for">Peer reviewer for Discover Agriculture (Springer Nature)</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="work" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Selected work</h2>
+      <p>Training, value chains, business plans, evaluations and teaching from the last decade. A full CV with every assignment is available on request.</p>
+    </div>
+    <div class="scroll">
+      <table class="stack">
+        <thead><tr><th>Year</th><th>Client</th><th>Assignment</th><th>Scale</th></tr></thead>
+        <tbody id="work-rows"></tbody>
+      </table>
+    </div>
+    <p class="clients"><b>Organisations I have worked with:</b> DAY-NRLM and NIRD&amp;PR; State Rural Livelihood Missions including Nagaland, Rajasthan (Rajeevika), Himachal Pradesh, Uttarakhand, Gujarat, Mizoram, Kerala (Kudumbashree), Punjab, Odisha, Sikkim, Arunachal Pradesh, Meghalaya, Jammu &amp; Kashmir and Tripura; IIM Kashipur; IFPRI; CIMMYT and BISA; IWMI; the World Bank; GIZ; Heifer International; SELCO Foundation; Syngenta Foundation; Nudge Lifeskills Foundation; FDRVC; TechnoServe; Grant Thornton Bharat; Aga Khan Foundation; Tata Trusts; Cornell University; XIM University.</p>
+  </div>
+</section>
+
+<section class="band about" id="about">
+  <div class="wrap">
+    <div>
+      <h2>About me</h2>
+      <p>I wear several hats: trainer, teacher, value-chain analyst, planner, evaluator and writer. Over 22 years I have worked with state missions, NGOs, research institutes and my own firm. I founded KPS India Pvt. Ltd. and ran it as Managing Director from 2017 to 2024, delivering surveys and studies for international research centres, donors and CSR programmes. I am a Grade-A National Resource Person for DAY-NRLM, an empanelled trainer at NIRD&amp;PR, and Visiting Faculty at XIM University, Bhubaneswar.</p>
+      <p>My work moves between the field, the training hall, the classroom and the desk: a focus group in a village, a value-chain map, a cash-flow model, a session for community cadres or a journal paper. I have worked in India, the USA, Kenya, Bangladesh, Nepal, Thailand and the Philippines.</p>
+      <div class="facts">
+        <p><b>Languages:</b> Odia (mother tongue), English and Hindi (fluent), Bengali (fair).</p>
+        <p><b>Tools:</b> KoboToolbox, SPSS, STATA, advanced Excel, QGIS and ArcGIS.</p>
+      </div>
+    </div>
+    <div>
+      <h2 style="font-size:28px">Education</h2>
+      <ul class="edu">
+        <li><span>2025</span><span>PhD, Natural Resource Management<small>TERI School of Advanced Studies, New Delhi. Thesis on the sustainability of shifting cultivation in Nagaland.</small></span></li>
+        <li><span>2013</span><span>MPS, International Development<small>Cornell University, Ithaca, New York</small></span></li>
+        <li><span>2004</span><span>PGDRM (Rural Management)<small>Xavier Institute of Management, Bhubaneswar</small></span></li>
+        <li><span>2001</span><span>BA (Hons), Psychology and Geography<small>Ravenshaw College, Cuttack</small></span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="band contact" id="contact">
+  <div class="wrap">
+    <div>
+      <h2 style="margin-bottom:18px">Let's work together</h2>
+      <p>Send me the ToR, or a few lines on what you need: a training, a value-chain study, business plans, an evaluation, a course or guest lecture, or a document to research, write or edit. I will reply with a plan, a timeline and a fee.</p>
+    </div>
+    <div class="rows">
+      <div class="row"><span class="k">Email</span><a class="v" href="mailto:pratyayj@gmail.com">pratyayj@gmail.com</a><button class="copy" type="button" id="copy-email">Copy</button></div>
+      <div class="row"><span class="k">Phone</span><a class="v" href="tel:+919711294800">+91 97112 94800</a></div>
+      <div class="row"><span class="k">Profiles</span><span class="v" style="font-size:16px"><a href="https://www.linkedin.com/in/pratyaya-jagannath-4823b915">LinkedIn</a> &nbsp;|&nbsp; <a href="https://orcid.org/0009-0006-3163-6628">ORCID 0009-0006-3163-6628</a></span></div>
+    </div>
+  </div>
+</section>
+<footer><div class="wrap"><span>© 2026 Pratyaya Jagannath, PhD</span><span>Bhubaneswar, Odisha, India</span></div></footer>
+
+<script>
+{
+  const work=[
+    ['2026','NIRD&PR and State Rural Livelihood Missions','Trainings and ToTs: producer groups and FPOs for Krishi Udyog Sakhis (Uttarakhand), black rice value chain (Bargarh, Odisha), enterprise loan applications (Uttar Pradesh), IFC roll-out and digital tools for SIRD staff (Uttarakhand)','Training'],
+    ['2025–26','State Rural Livelihood Missions of Nagaland, Rajasthan, Himachal Pradesh, Uttarakhand, Gujarat, Mizoram, Kerala, Punjab, Odisha and Sikkim','DPRs and business plans for Integrated Farming Clusters under MKSP','Multi-state'],
+    ['2026','IIM Kashipur (FIED) with Uttarakhand SRLM','Enterprise DPRs and business plans for the BHULI rural enterprise incubation programme','Nine districts'],
+    ['2026','CIMMYT–BISA, through KPS India','Climate Resilient Agriculture project baseline, nine districts of Madhya Pradesh','2,700 households'],
+    ['2025–26','Foundation for Development of Rural Value Chains (FDRVC)','Value-chain analysis and investment plan for agro-processing, Deoria and Gorakhpur, Uttar Pradesh','Two districts'],
+    ['2025–','XIM University, Bhubaneswar','Visiting Faculty: academic writing, sustainable livelihoods, climate adaptation and NRM governance','UG and PG'],
+    ['2025','GIZ (Soil Matters) for DAY-NRLM','Technical guidelines for setting up and running Bio-input Resource Centres','National guideline'],
+    ['2025','Grant Thornton Bharat (World Bank-funded Sikkim INSPIRES)','Lead, Monitoring and Evaluation','State project'],
+    ['2022–23','Nudge Lifeskills Foundation, through KPS India','Goat-rearing and backyard-poultry value-chain studies','Seven districts, UP'],
+    ['2021','SELCO Foundation','Spice value chains in north-east India: turmeric, ginger, king chilli and black pepper','Four spices'],
+    ['2021','Heifer International, through KPS India','Endline evaluation of goat-rearing and backyard-poultry projects, Mayurbhanj','1,200 households'],
+    ['2020–21','GIZ with Reliance Foundation','Climate risk and business development for the millet value chain, Mandla, Madhya Pradesh','Scoping study'],
+    ['2014–25','NIRD&PR and State Rural Livelihood Missions','Induction, IFC, business-planning, Lakhpati Didi and producer-group trainings for Arunachal Pradesh, Meghalaya, Punjab, Himachal Pradesh, Jammu & Kashmir, Tripura and other states','Training'],
+    ['2015','World Bank-assisted TRIPTI project, Odisha','Drafted the Programme Completion Report with the lead consultant','About 4 million people reached'],
+    ['Earlier','World Bank-funded NERLP','Community NRM planning in Sikkim and Nagaland, with work in Mizoram and Tripura','About 1,000 community plans']
+  ];
+  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  document.getElementById('work-rows').innerHTML=work.map(r=>`<tr><td class="yr" data-l="Year">${esc(r[0])}</td><td class="cl" data-l="Client">${esc(r[1])}</td><td data-l="Assignment">${esc(r[2])}</td><td class="sc" data-l="Scale">${esc(r[3])}</td></tr>`).join('');
+
+  const ns='http://www.w3.org/2000/svg';
+  const terr=document.getElementById('terr');
+  const fills=['var(--t1)','var(--t2)','var(--t3)','var(--t4)','var(--t2)','var(--t1)','var(--t3)','var(--t4)'];
+  let out='';
+  for(let i=0;i<8;i++){
+    const y=262+i*18, a=10+i*3, f=fills[i];
+    const d=`M${-20} ${y} C 260 ${y-a} 520 ${y+a*0.6} 760 ${y-a*0.4} C 1000 ${y-a*1.2} 1220 ${y+a*0.5} 1460 ${y-a*0.3} V 400 H -20 Z`;
+    out+=`<path d="${d}" fill="${f}"/><path d="${d}" fill="url(#rows)"/><path d="M-20 ${y} C 260 ${y-a} 520 ${y+a*0.6} 760 ${y-a*0.4} C 1000 ${y-a*1.2} 1220 ${y+a*0.5} 1460 ${y-a*0.3}" stroke="url(#hl)" stroke-width="5" fill="none"/><path d="M-20 ${y+3} C 260 ${y-a+3} 520 ${y+a*0.6+3} 760 ${y-a*0.4+3} C 1000 ${y-a*1.2+3} 1220 ${y+a*0.5+3} 1460 ${y-a*0.3+3}" stroke="#000" stroke-opacity=".12" stroke-width="3" fill="none"/>`;
+  }
+  terr.innerHTML=out;
+
+  let s=20261125;
+  const rnd=()=>(s=s*16807%2147483647)/2147483647;
+  const trees=document.getElementById('trees');
+  let t='';
+  const spots=[[120,238],[160,246],[205,236],[330,222],[1040,206],[1085,214],[1130,204],[1270,206],[1310,214],[1360,202],[560,226],[600,232]];
+  spots.forEach(([x,y])=>{const k=0.8+rnd()*0.5;t+=`<use href="#tree" transform="translate(${x} ${y}) scale(${k.toFixed(2)})"/>`;});
+  for(let i=0;i<14;i++){const x=40+rnd()*1360,y=288+rnd()*90;t+=`<use href="#shrub" transform="translate(${x.toFixed(0)} ${y.toFixed(0)}) scale(${(0.6+rnd()*0.6).toFixed(2)})"/>`;}
+  trees.innerHTML=t;
+
+  const btn=document.getElementById('copy-email');
+  btn.addEventListener('click',async()=>{
+    try{await navigator.clipboard.writeText('pratyayj@gmail.com');btn.textContent='Copied';}
+    catch(e){btn.textContent='Select and copy the address';}
+    setTimeout(()=>{btn.textContent='Copy';},2200);
+  });
+}
+</script>
+</body>
+</html>
